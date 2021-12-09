@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/391972a9e0.js" crossorigin="anonymous"></script>
-        <title>Document</title>
+        <title>first</title>
     <style>
         .a{
            
@@ -30,7 +30,7 @@
         .c{
             border: 2px solid red;
             width: 250px;
-            height: 500px;
+            height: 400px;
             display: inline-block;
             margin-left: 250px;
             border-radius: 20px;
@@ -38,6 +38,11 @@
             box-shadow: 5px 5px 2px gray;
             color: red;
             text-align: right;
+           
+        }
+        #link{
+                text-decoration: none; 
+                color: red;
         }
         .v{
             color: black;
@@ -46,7 +51,7 @@
         .c1{
             border: 2px solid red;
             width: 250px;
-            height: 500px;
+            height: 400px;
             display: inline-block;
             margin-left: 20px;
             border-radius: 20px;
@@ -58,7 +63,7 @@
         .c2{
             border: 2px solid red;
             width: 250px;
-            height: 500px;
+            height: 400px;
             display: inline-block;
             margin-left: 20px;
             border-radius: 20px;
@@ -101,6 +106,10 @@
             left: 680px;
             bottom: 0px;
         }
+        #link2{
+            text-decoration: none;
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -108,11 +117,11 @@
     <div class="b"><b>Task</b> list</div>
     <div class="b1">
         <a href="third.html" class="icon">
-        <i class="fas fa-plus-circle"></i>
+        <i class="fas fa-plus-circle" id="link2"></i>
         </a>ADD LIST</div>
 </div><br><br>
 <div class="d">
-<div class="c"><br>Trip to paris<hr class="q"/><del>Completed task</del><br><br>
+<div class="c"><br><a href="second.html" id="link"> Trip to paris</a><hr class="q"/><del>Completed task</del><br><br>
     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
     <label class="v" for="vehicle1">pending task</label><br>
 </div>
